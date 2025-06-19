@@ -152,14 +152,14 @@ MIDDLEWARE = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'hashing_db',      # Nombre de tu base de datos MySQL
-        'USER': 'root',            # Tu usuario de MySQL
-        'PASSWORD': 'your_mysql_password', # Tu contraseña de MySQL
-        'HOST': '127.0.0.1',       # O 'localhost'
-        'PORT': '3306',            # Puerto por defecto de MySQL
+        'NAME': 'vianka-vaca-flores_db',
+        'USER': '412070_vianka',
+        'PASSWORD': '2023vvf3685', 
+        'HOST': 'mysql-vianka-vaca-flores.alwaysdata.net',
+        'PORT': '3306',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-        }
+        },
     }
 }
 
